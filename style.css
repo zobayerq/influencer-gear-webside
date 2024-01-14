@@ -1,4 +1,51 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+nav{
+    width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 87px;
+    align-items: center;
+}
+nav h4{
+    color: #3A3A3A;
+
+font-family: 'Poppins';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.nav-list{
+    display: flex;
+
+}
+nav li{
+    list-style: none;
+    
+}
+nav li a{
+    margin-right: 34px;
+    color: #3A3A3A;
+
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    
+}
+.icon{
+    font-size: 20px;
 }
