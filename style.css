@@ -1,15 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
-
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
-nav{
+
+.btn {
+    align-items: center;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 41px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: 0;
+}
+
+nav {
     width: 1180px;
     margin: auto;
     display: flex;
@@ -17,24 +31,28 @@ nav{
     margin-top: 87px;
     align-items: center;
 }
-nav h4{
+
+nav h4 {
     color: #3A3A3A;
 
-font-family: 'Poppins';
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.nav-list{
+
+.nav-list {
     display: flex;
 
 }
-nav li{
+
+nav li {
     list-style: none;
-    
+
 }
-nav li a{
+
+nav li a {
     margin-right: 34px;
     color: #3A3A3A;
 
@@ -44,8 +62,79 @@ nav li a{
     font-weight: 600;
     line-height: normal;
     text-decoration: none;
-    
+
 }
-.icon{
+
+.btn i {
+    margin-left: 8px;
+}
+
+.icon {
     font-size: 20px;
+}
+
+.poster-txt {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin: auto 0px;
+}
+
+.poster {
+    display: flex;
+    width: 1180px;
+    margin: auto;
+    justify-content: space-between;
+
+    margin-top: 50px;
+}
+
+.poster-txt h4 {
+    width: 582px;
+    color: #3A3A3A;
+
+    font-family: 'Poppins';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 134.615% */
+    margin-bottom: 16px;
+}
+
+.poster-txt p {
+
+    width: 505px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.poster-img img {}
+
+.poster-img {
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 475px;
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sopnser {
+
+    width: 1112px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+
 }
