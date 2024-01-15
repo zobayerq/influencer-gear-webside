@@ -115,7 +115,9 @@ nav li a {
 
 }
 
-.poster-img img {}
+.poster-img img {
+    width: 100%;
+}
 
 .poster-img {
     background-image: url(images/Circle\ design.svg);
@@ -285,6 +287,8 @@ line-height: 60px; /* 157.895% */
 }
 .dawn-box-txt{
     
+  
+    
     margin: auto 0;
     margin-left: 96px;
 
@@ -344,4 +348,73 @@ footer p{
  }
 
 
+ @media screen  and (max-width: 576px){
+    nav{
+        flex-direction: column;
+
+    }
+    .nav-list {
+        flex-direction: column;
+        margin-top: 10px;
+    
+    }
+    nav li {
+        margin-top: 10px;
+    
+    }
+    .poster {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        
+        text-align: center;
+    }
+
+    .poster-img {
+        margin-top: 30px;
+        width: 80%;
+        height: auto;
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+    .sopnser{
+        flex-wrap: wrap;
+        
+        
+
+
+    }
+    .sopnser img{
+        margin-right: 30px;
+    }
+    main{
+        padding: 0 15px;
+    }
+
+    .dawn-box{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        
+    }
+    .dawn-box-txt{
+        
+        
+         display: flex;
+        flex-direction: column;
+        margin: 0px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+        text-align: center;
+       
+    
+    }
+    .dawn-box-txt-btn{
+        margin-top: 30px;
+    }
+
+    
+
+
+    
+ }
 
